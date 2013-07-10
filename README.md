@@ -1,4 +1,50 @@
-z-wp-old-browser-message
-========================
+Zane WordPress Old Browser Message
+===
 
-A WordPress plugin to let users know they are on an old browser
+v0.1
+July, 2013
+
+Z WP Old Browser Message informs users that they are using an old browser.
+
+by AJ Zane ~ http://AJZane.com or http://github.com/AJZane/z-wp-old-browser-message
+
+Usage
+===
+
+Hooks
+===
+
+Bugs & Features
+===
+Bugs: 
+Please add bugs to the GitHub issue queue
+http://AJZane.com or https://github.com/AJZane/z-wp-old-browser-message/issues
+
+Feature Requests:
+If you have feature requests, please email me at androiddreams@AJZane.com
+
+
+CHANGELOG
+===
+
+TO DO:
+===
+Will require 
+	a JS that sees what the browser version is
+	a php that sets up the dom
+	a css that styles it all
+		or a sass package and the compiled css?
+
+GUI ability to modify the message (both minified and maximum)
+Or create a post type?
+
+GUI choice to have the lightbox display by default
+
+GUI ability to modify the CSS
+
+GUI option for where the minified message will be
+	top
+	right
+	bottom
+	left
+	inline
