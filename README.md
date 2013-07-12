@@ -10,6 +10,9 @@ by AJ Zane ~ http://AJZane.com or http://github.com/AJZane/z-wp-old-browser-mess
 
 Usage
 ===
+Activate the plugin
+Make sure the current version of all the browsers is updated (by modifying zwp-old-browser-message.js)
+Set the 'version limit' variables, which decide 
 
 Hooks
 ===
@@ -29,11 +32,7 @@ CHANGELOG
 
 TO DO:
 ===
-Will require 
-	a JS that sees what the browser version is
-	a php that sets up the dom
-	a css that styles it all
-		or a sass package and the compiled css?
+(in no particular order)
 
 GUI ability to modify the message (both minified and maximum)
 Or create a post type?
@@ -48,3 +47,8 @@ GUI option for where the minified message will be
 	bottom
 	left
 	inline
+
+Plugin update functionality
+
+Support for specific version limits for any OS/browser combo, as well as a fallback
+(send an array to the checker function?)
